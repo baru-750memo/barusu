@@ -23,5 +23,14 @@
 .recommend-editorial .site-link{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:4px 16px;min-height:54px;margin-top:28px;padding:13px 18px;border:0;border-radius:3px;background:var(--accent);color:#fff;font-size:13px}
 .recommend-editorial .site-link small{font-size:10px;font-weight:400;opacity:.9}
 @media(max-width:700px){.recommend-card.recommend-editorial{padding:24px 22px 22px}.recommend-name{margin-top:23px}.recommend-description{font-size:12px}.recommend-editorial .site-link{margin-top:23px;padding:13px 14px}.recommend-editorial .site-link small{font-size:9px}}
+:root{--font:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans",Meiryo,Arial,sans-serif}
+body{font-weight:400}
+h1,h2{font-weight:600;letter-spacing:-.02em}
+h1{font-size:clamp(38px,4.2vw,56px)}
+.site-header .brand-wordmark{display:inline-flex;flex-shrink:0;white-space:nowrap;min-height:48px;font-family:Arial,sans-serif;font-size:26px;font-weight:700;letter-spacing:.025em}
+.brand-note{display:none}
+.header-cta{flex-shrink:0;white-space:nowrap}
+.primary-cta,.guide-card b,.question-list b{letter-spacing:0;font-weight:600}
+@media(max-width:700px){h1{font-size:clamp(30px,8.5vw,44px)}h2{font-size:26px}.site-header{gap:12px;padding:10px 22px}.site-header .brand-wordmark{font-family:Arial,sans-serif;font-size:24px;letter-spacing:.025em;font-weight:700}.final-section h2{font-size:30px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
